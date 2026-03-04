@@ -28,16 +28,27 @@ Each record represents a unique SKU (Stock Keeping Unit). Duplicate product name
 # Column Descriptions
 
 Column	- Description
+
 sku_id	- Synthetic primary key
+
 name	- Product name as displayed in the app
+
 category	- Product category (Fruits, Snacks, Beverages, etc.)
+
 mrp -	Maximum Retail Price (converted from paise to ₹)
+
 discountPercent	- Discount applied on MRP
+
 discountedSellingPrice	- Final selling price after discount (₹)
+
 availableQuantity	- Units available in inventory
+
 weightInGms	- Product weight in grams
+
 outOfStock	- Boolean flag indicating stock availability
+
 quantity	- Number of units per package
+
 
 
 # Tech Stack
@@ -49,11 +60,13 @@ pgAdmin – Data import and management
 SQL – Data cleaning, transformation, and analysis
 
 
+
 🔧# Project Workflow
 
-** Database & Table Creation**
+* Database & Table Creation*
 
 A structured table was created with appropriate data types to support analytical queries:
+
 
 CREATE TABLE zepto (
   sku_id SERIAL PRIMARY KEY,
