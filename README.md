@@ -2,7 +2,7 @@
 
 🛒 Zepto Inventory Analysis (SQL Project)
 
-📌 Project Overview
+📌 ## **Project Overview**
 
 This project simulates a real-world e-commerce data analytics workflow using SQL. It demonstrates how data analysts in retail or marketplace environments work behind the scenes to structure messy catalog data, clean inconsistencies, and extract business insights.
 
@@ -63,7 +63,7 @@ SQL – Data cleaning, transformation, and analysis
 
 🔧# Project Workflow
 
-* Database & Table Creation*
+##  **Database & Table Creation**
 
 A structured table was created with appropriate data types to support analytical queries:
 
@@ -84,7 +84,7 @@ CREATE TABLE zepto (
 
 
 
-** 2 Exploratory Data Analysis (EDA)**
+## **2 Exploratory Data Analysis (EDA)**
 
 Performed structured analysis to understand dataset integrity and structure:
 
@@ -104,7 +104,7 @@ This step ensured clarity before proceeding to transformations.
 
 
 
-** 3. Data Cleaning & Transformation**
+## **3. Data Cleaning & Transformation**
 
 To ensure accurate business reporting:
 
@@ -120,7 +120,7 @@ This improved data reliability for downstream analysis.
 
 
 
-** 4.  Business-Driven SQL Analysis**
+## **4.  Business-Driven SQL Analysis**
 
 The following analytical queries were executed:
 
@@ -156,7 +156,7 @@ Simulated real-world catalog and pricing intelligence workflows
 
 
 
-**🚀 How to Run the Project**
+## **How to Run the Project**
 
 Install PostgreSQL and pgAdmin
 
@@ -174,7 +174,7 @@ Review query outputs for business insights
 
 
 
-**📌 Project Significance**
+## 📌**Project Significance**
 
 *This project demonstrates:
 
